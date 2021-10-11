@@ -26,7 +26,7 @@ const main = async () => {
     app.use(express.json({ limit: '10mb' }));
     app.use('/Company', CompanyRoute);
 
-    app.listen(3001, () => { console.log("Server Start") })
+    app.listen(8080, () => { console.log("Server start and listening at 8080") })
 }
 main();
 // .catch(console.error());
